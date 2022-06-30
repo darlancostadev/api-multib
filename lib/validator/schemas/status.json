@@ -1,3 +1,16 @@
 {
-  "id": "status"
+  "id": "status",
+  "required": ["name", "orderId", "value"],
+  "type": "object",
+  "properties": {
+    "name":{
+      "type" : "string"
+    },
+     "orderId":{
+      "type" : "string"
+    },
+     "value":{
+      "type" : "number"
+    }
+  }
 }

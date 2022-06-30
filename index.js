@@ -28,7 +28,7 @@ process
 (async () => {
   try {
     await server.start();
-    await conectDb();
+    await conectDb("urlProd");
   } catch (err) {
     console.log("[APP] initialization failed", err);
     throw err;

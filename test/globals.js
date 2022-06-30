@@ -1,7 +1,11 @@
-const { conectDbTest, closeDb, dropCollection } = require("../database/db");
+const {
+  conectDb,
+  closeDb,
+  dropCollection,
+} = require("../database/db");
 
 before("Override database url and add default token", async () => {
-  await conectDbTest();
+  await conectDb("urlTest");
 });
 
 after("Remove tests database", async () => {
