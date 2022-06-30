@@ -38,7 +38,7 @@ Inicie o servidor
 
 ## Stack utilizada
 
-**Front-end:** NodeJs(react), Mocha, Chai e supertest(testes), Axios
+**Front-end:** NodeJs(express), Mocha, Chai e supertest(testes), Axios
 
 ## 🚀 Sobre mim
 
