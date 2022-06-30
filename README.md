@@ -34,6 +34,12 @@ Inicie o servidor
   npm start
 ```
 
+Rodando os testes com mocha
+
+```bash
+  npm run mocha
+```
+
 ### Pronto a api vai está rodando na porta 4000
 
 ## Stack utilizada
